@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="overlay">
+        <div class="modal">
+            <div class="modal__close">&times;</div>
+            <h4 class="modal__title">Регистрация</h4>
+            <form action="#" class="form" id="form">
+                <div class="form-control">
+                    <label>Почта</label>
+                    <input id="email" name="email" required placeholder="E-mail" type="email">
+                    <small>Error</small>
+                </div>
+               
+                <div class="form-control avatar">
+                    <label>Аватар</label>
+                    <input id="avatar" name="avatar" type="file">
+                    <small>Error</small>
+                </div>
+              
+                <div class="form-control">
+                    <label>Имя</label>
+                    <input id="firstName" name="first_name" required placeholder="First Name" type="text">
+                    <small>Error</small>
+                </div>
+
+                <div class="form-control">
+                    <label>Фамилия</label>
+                    <input id="lastName" name="last_name" required placeholder="Last Name" type="text">
+                    <small>Error</small>
+                </div>
+
+                <div class="form-control">
+                    <label>Возраст</label>
+                    <input id="age" name="age" required placeholder="Age">
+                    <small>Error</small>
+                </div>
+
+                <div class="form-control">
+                <label>Пароль</label>
+                    <input id="password" name="password" required placeholder="Password" type="text">
+                    <small>Error</small>
+                </div>
+                <input id="submit" type="submit" class="button button_submit" value="Отправить" disabled>
+            </form>    
+        </div>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

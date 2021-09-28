@@ -1,0 +1,30 @@
+.container{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: flex;
+}
+
+
+.square {
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    margin: auto;
+    animation: color_rotate 5s linear infinite;
+}
+
+
+@keyframes color_rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+        background-color: orange;
+    }
+    100% {
+        transform: rotate(360deg);
+        background-color: green;
+    }
+} 
